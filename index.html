@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./settings.css">
+    <title>Settings page</title>
+</head>
+<body>
+    <!-- place for nav or toggler -->
+    <!-- end of nav or toggolr -->
+
+    <!-- Creating the body -->
+    <div class="container-main">
+        <div class="side-content">
+            <div class="side-content-text">
+                <h2>close</h2>
+            </div>
+
+            <div class="socials">
+                <div class="sidebar-item"><h3>Account Settings</h3></div>
+                <a href="#" class="sidebar-links"><div class="sidebar-item"><span class="iconify " data-icon="carbon:user-profile"></span>Profile</div></a>
+                <a href="#" class="sidebar-links"><div class="sidebar-item"><span class="iconify" data-icon="ci:help-circle-outline"></span>Help</div></a>
+                <a href="#" class="sidebar-links"><div class="sidebar-item"><span class="iconify" data-icon="bx:log-out"></span>Logout</div></a>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <main class="main-container">
+                <div class="sidebar-item"><h3 class="main-heading">Account and settings</h3></div>
+                <span class="login-info">login info</span>
+                <form action="#">
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" placeholder="jamesbrown2022@gmail.com" required>
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="********" required>
+                    <label for="recovery">Recovery phone number</label>
+                    <input type="tel" name="recovery" placeholder="+234-81-1234-5678" required>
+                </form>
+
+                <section class="authentication sections-mb">
+                    <span class="login-info">2-factor authentication</span>
+                    <div class="page-bottom-items">
+                        <span class="page-bottom-text">Authentication app</span>
+                        <button class="page-bottom-btn">Enable</button>
+                    </div>
+
+                    <div class="page-bottom-items">
+                        <span class="page-bottom-text">Phone number</span>
+                        <button class="page-bottom-btn">Enable</button>
+                    </div>
+                </section>
+
+                <section class="social-login sections-mb">
+                    <span class="login-info">social login</span>
+                    <div class="page-bottom-items">
+                        <div>
+                            <span class="page-bottom-text">Google Account</span>
+                            <p class="small-text">James Brown</p>
+                        </div>
+                        <button class="page-bottom-btn">Disable</button>
+                        
+                    </div>
+
+                    <div class="page-bottom-items">
+                        <div>
+                            <span class="page-bottom-text">Facebook Account</span>
+                            <p class="small-text">Disabled</p>
+                        </div>
+                        <button class="page-bottom-btn">Enable</button>
+                    </div>
+                </section>
+
+                <span class="delete-account">Delete Account</span>
+            </main>
+        </div>
+    </div>
+    <!-- End of creating body -->
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+</body>
+</html>

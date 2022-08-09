@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Inder&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inder';
+    font-style: normal;
+}
+
+.container-main {
+    display: grid;
+    grid-template-columns: 1.5fr 3fr;
+    text-align: center;
+}
+
+.side-content {
+    min-height: 100vh;
+    background-color: #38807A;
+}
+
+.side-content-text {
+    width: 100%;
+    margin-top: 50px;
+    padding-left: 64px;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.side-content-text h2 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+    color: #1E2833;
+    margin-bottom: auto;
+}
+
+.sidebar-item > h3 {
+    color: #05F5E3;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 400;
+}
+
+.socials div {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sidebar-links {
+    display: block;
+    width: 76%;
+    text-decoration: none;
+    color: #1E2833;
+}
+
+.sidebar-item {
+    margin-bottom: 60px;
+}
+
+.iconify {
+    height: 25px;
+    width: 50px;
+}
+
+.main-content {
+    min-height: 100vh;
+    background-color: #F3F3F3;
+    padding-right: 15%;
+    padding-bottom: 80px;
+}
+
+.main-container {
+    padding: 85px 20px 0;
+    margin: 0 auto;
+    width: 80%;
+    text-align: left;
+}
+
+.sidebar-item .main-heading {
+    color: #38807A;
+}
+
+.login-info {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #2F6A66;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+input[type="email"], input[type="password"], input[type="tel"] {
+    font-family: 'Work Sans';
+    padding: 15px 20px;
+    margin-top: 17px;
+    margin-bottom: 40px;
+    border: 1px solid #1E2833;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+label {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+}
+
+.page-bottom-items {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.page-bottom-text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.sections-mb {
+    margin-bottom: 40px;
+}
+
+.delete-account {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #981414;
+}
+
+button:hover {
+    transition: 0.5s;
+    box-shadow: 0px -1px 17px 0px rgba(0,0,0,0.41);
+    -webkit-box-shadow: 0px -1px 17px 0px rgba(0,0,0,0.41);
+    -moz-box-shadow: 0px -1px 17px 0px rgba(0,0,0,0.41);
+}
+
+.page-bottom-btn {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #2F6A66;
+    border-radius: 10px;
+    width: 115px;
+    height: 50px;
+    background-color: #fff;
+}
+
+p.small-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+}
