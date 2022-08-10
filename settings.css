@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inder&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url(//db.onlinewebfonts.com/c/e662339992c4abf5b43f537391bd3169?family=Candara);
 
 *, *::after, *::before {
     margin: 0;
@@ -14,67 +15,69 @@ body {
 
 .container-main {
     display: grid;
-    grid-template-columns: 1.5fr 3fr;
+    grid-template-columns: 0.6fr 3fr;
+    grid-template-rows: repeat(2, minmax(120px, auto));
     text-align: center;
 }
 
 .side-content {
     min-height: 100vh;
-    background-color: #38807A;
+    background-color:#1F222D;
 }
 
-.side-content-text {
-    width: 100%;
+.logo-1 {
     margin-top: 50px;
-    padding-left: 64px;
-    text-align: left;
-    text-transform: uppercase;
-    line-height: 30px;
+    justify-content: flex-start;
+    margin-right: 120px;
 }
 
-.side-content-text h2 {
-    font-weight: 400;
-    font-size: 20px;
-}
+/* #logo-1 {
+   margin-top: 68px;
+
+} */
+
 
 .socials {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 40%;
+    /* justify-content: space-between; */
+    height: 60%;
     color: #1E2833;
     margin-bottom: auto;
 }
 
-.sidebar-item > h3 {
-    color: #05F5E3;
-    font-size: 30px;
-    line-height: 45px;
-    font-weight: 400;
-}
+
+
+
 
 .socials div {
     display: flex;
     width: 70%;
     align-items: center;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
 }
 
 .sidebar-links {
-    display: block;
-    width: 76%;
+    /* display: block; */
+    width: 100%;
     text-decoration: none;
-    color: #1E2833;
+    color:#fff;
 }
+
+
 
 .sidebar-item {
     margin-bottom: 60px;
+    height: 45px;
+    margin-left: 25px;
 }
 
 .iconify {
-    height: 25px;
+    height: 20px;
     width: 50px;
+    /* margin-right: 10px; */
 }
 
 .main-content {
@@ -96,9 +99,11 @@ body {
 }
 
 .login-info {
+    font-family: 'Candara';
+    font-style: normal;
     font-weight: 400;
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 36px;
+    line-height: 44px;
     text-transform: uppercase;
     color: #2F6A66;
 }
@@ -179,3 +184,104 @@ p.small-text {
     font-size: 12px;
     line-height: 20px;
 }
+
+/* styling of the footer */
+
+footer {
+    background-color: #1F4744;
+    height: 600px;
+    width: 100%;
+    color: #fff;
+    padding-top: 65px;
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+
+.footer-container {
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 40px;
+}
+
+.footer-header {
+    font-family: 'Candara';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 35px;
+}
+
+.footer-item  {
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 10px;
+    margin-top: 20px;
+    margin-right: 40px;
+    /* margin:55px  auto; */
+}
+
+.footer-item1 {
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 10px;
+}
+#platform {
+    line-height: 25px;
+    font-size: 20px;
+    
+}
+
+.footer-list a {
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+
+.about {
+    /* position: relative; */
+    margin-top: 50px;
+
+}
+
+
+ .company-logo {
+    width: 150px;
+    margin-right: 92px;
+ }
+    
+
+
+/*  */
+
+.fa {
+    color: #fff;
+    margin-right: 30px;
+}
+
+.align-footer {
+    padding-top: 57px;
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+
+/* STYLING OF THE NAV */
+#drop-down{
+    color: var(--clr-content);
+    height: 3rem;
+    width: 3rem;
+    display: inline-flex;
+}
+#drop-btn{
+    display: flex;
+    gap: 0;
+    align-items: center;
+}
+
